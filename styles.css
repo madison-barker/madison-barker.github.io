@@ -1,3 +1,41 @@
+/* Body styles for full-page background */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+}
+
+/* Background image styles */
+.background-image {
+    background-image: url('path-to-your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the background height to cover the entire viewport */
+    position: relative;
+}
+
+/* Centered content styles */
+.centered-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Text color */
+}
+
+/* Name styles */
+h1 {
+    font-size: 36px; /* Adjust font size as needed */
+}
+
+/* Subtitle styles */
+p {
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+css
+Copy code
 /* Header */
 header {
     font-size: 14px;
@@ -43,3 +81,14 @@ a {
     color: #007acc;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
