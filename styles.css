@@ -7,7 +7,7 @@ body {
 
 /* Background image styles */
 .background-image {
-    background-image: url('path-to-your-image.jpg');
+    background-image: url('./data/background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh; /* Set the background height to cover the entire viewport */
