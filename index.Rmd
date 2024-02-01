@@ -18,4 +18,4 @@ knitr::opts_chunk$set(echo = TRUE)
 Hi there, my name is Madison and I am a fifth-year graduate student in Psychology at the University of California, Davis. I study language production, namely multi-utterance production, as a member of the [Ferreira Lab](https://ferreiralab.faculty.ucdavis.edu/) headed by Dr. Fernanda Ferreira here at UC Davis. My research is focused on better understanding the linearization problem (how do people decide what to say and when?). We use real-world scenes to get participants to elicit such descriptions, use eyetracking to monitor their eye movements, and a number of computational methods to quantify scene features, to begin to address this question in the field of psycholinguistics.    
 
 
-In my spare time, I have a number of [hobbies](./data/hobbies.pdf) that keep me busy. Some I do much better than others. Many of them involved my dog, Hamm. 
+In my spare time, I have a number of [hobbies](./data/hobbies/) that keep me busy. Some I do much better than others. Many of them involved my dog, Hamm. 
