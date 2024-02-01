@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 # Cycling 
-I spend a lot of my free time in the saddle. My father, a prolific biker, tried for 22 years to convert me from a runner to a cyclist, to no avail. After breaking my hip, both shins, a foot, a toe, and partially tearing my quad, I transitioned my Nikes to Shimanos. 
+I spend a lot of my free time in the saddle. For 22 years, my father, a prolific biker, tried to convert me from a runner to a cyclist. After breaking my hip, both shins, a foot, a toe, and partially tearing my quad, I transitioned my Nikes to Shimanos.
 
 
 #### My road bike, a Colnago CX Zero Evo.
