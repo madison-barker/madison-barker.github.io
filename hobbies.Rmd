@@ -1,0 +1,37 @@
+---
+title: "Hobbies"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Cycling 
+I spend a lot of my free time in the saddle. My father, a prolific biker, tried for 22 years to convert me from a runner to a cyclist, to no avail. After breaking my hip, both shins, a foot, a toe, and partially tearing my quad, I transitioned my Nikes to Shimanos. 
+
+
+#### My road bike, a Colnago CX Zero Evo.
+![Don Ciro](./data/hobbies/colnago.jpg)
+
+#### And my newest addition, a Trek Domane. 
+![Noname](./data/hobbies/trek.jpg)
+
+<br/>
+Recently, I've started integrating gravel rides into my routine as I prepare for a 200km ride in [Iceland, July 2024](https://www.therift.bike/). 
+
+<br/>
+
+![Iceland Rift Race 2024](./data/hobbies/route_animation.mp4)
+<br/>
+*Hey, like this animation? Create your own! Copy my code [here](./data/hobbies/code_repo/mapmyride.py)*
+
+
+
+# Fostering (dogs)
+
+
+
+ 
+
