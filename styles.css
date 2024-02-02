@@ -15,7 +15,7 @@ body {
 nav ul {
     list-style-type: none;
     padding: 0;
-    background-color: #007acc; /* Add your desired background color */
+    background-color: #D9D0C7; /* Add your desired background color */
     width: 100%; /* Make the navigation bar span the entire width */
 }
 
@@ -25,6 +25,11 @@ nav ul ul {
 
 nav ul li:hover > ul {
     display: block; /* Display submenu on hover */
+}
+
+nav ul li a {
+    height: 50px; /* Adjust the value as needed */
+    line-height: 50px; /* Match the height for vertical alignment */
 }
 
 nav li {
