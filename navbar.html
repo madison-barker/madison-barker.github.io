@@ -9,3 +9,52 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
+
+/*nav bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to create a horizontal menu */
+}
+
+nav li {
+    margin-right: 20px;
+    position: relative; /* Position for submenus */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Font color of the links */
+    font-size: 16px;
+    display: block; /* Make the links block-level elements */
+    padding: 10px 15px; /* Add padding for better spacing */
+}
+
+/* Styles for submenus */
+nav ul ul {
+    display: none; /* Hide submenus by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333; /* Background color for submenus */
+}
+
+nav ul ul li {
+    margin: 0;
+}
+
+nav li:hover > ul {
+    display: block; /* Display submenu on hover */
+}
+
+nav a:hover {
+    color: #fff; /* Change font color on hover */
+    background-color: #718660; /* Background color on hover */
+}
+
+/* Style the submenu links */
+nav ul ul a {
+    color: #fff;
+}
+
