@@ -66,33 +66,53 @@ a {
 }
 
 /*nav bar*/
-.navbar {
-    background-color: #D9D0C7;
-    padding: 20px;
-    text-align: center;
-    position: fixed; /* Fixed position to keep it at the top */
-    top: 0; /* Align it at the top */
-    left: 0; /* Align it at the left */
-    right: 0; /* Align it at the right */
-    z-index: 1000; /* Set a high z-index to make sure it's above other content */
-}
-
-.navbar ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex; /* Use flexbox to create a horizontal menu */
 }
 
-.navbar li {
-    display: inline-block;
+nav li {
     margin-right: 20px;
+    position: relative; /* Position for submenus */
 }
 
-.navbar a {
+nav a {
     text-decoration: none;
-    color: #4B5940; /* Text color for navbar links */
-    font-size: 18px; /* Adjust the font size for navbar links */
+    color: #333; /* Font color of the links */
+    font-size: 16px;
+    display: block; /* Make the links block-level elements */
+    padding: 10px 15px; /* Add padding for better spacing */
 }
+
+/* Styles for submenus */
+nav ul ul {
+    display: none; /* Hide submenus by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333; /* Background color for submenus */
+}
+
+nav ul ul li {
+    margin: 0;
+}
+
+nav li:hover > ul {
+    display: block; /* Display submenu on hover */
+}
+
+nav a:hover {
+    color: #fff; /* Change font color on hover */
+    background-color: #007BFF; /* Background color on hover */
+}
+
+/* Style the submenu links */
+nav ul ul a {
+    color: #fff;
+}
+
 
 /* Background image for the entire page */
 .background-image {
