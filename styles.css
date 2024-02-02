@@ -46,15 +46,15 @@ nav a:hover {
 .centered-content {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 20%; /* Adjust this value to move the content up or down */
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #001829; /* Text color, not white */
+    color: #333; /* Text color, not white */
 }
 
 /* Name styles */
 h1 {
-    font-size: 100px; /* Adjust font size as needed */
+    font-size: 50px; /* Adjust font size as needed */
     font-weight: bold; /* Make the text bold */
     color: #007acc; /* Blue color */
 }
