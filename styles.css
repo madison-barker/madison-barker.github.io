@@ -54,7 +54,7 @@ nav a:hover {
 
 /* Name styles */
 h1 {
-    font-size: 50px; /* Adjust font size as needed */
+    font-size: 100px; /* Adjust font size as needed */
     font-weight: bold; /* Make the text bold */
     color: #007acc; /* Blue color */
 }
@@ -62,6 +62,7 @@ h1 {
 /* Subtitle styles */
 p {
     font-size: 24px;
+    font-weight: bold; /* Make the text bold */
     color: black; /* Remove single quotes and specify color */
 }
 
