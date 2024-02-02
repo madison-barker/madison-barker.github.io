@@ -65,11 +65,16 @@ a {
     text-decoration: none;
 }
 
-/* Navigation bar styling */
+/*nav bar*/
 .navbar {
     background-color: #D9D0C7;
     padding: 20px;
     text-align: center;
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0; /* Align it at the top */
+    left: 0; /* Align it at the left */
+    right: 0; /* Align it at the right */
+    z-index: 1000; /* Set a high z-index to make sure it's above other content */
 }
 
 .navbar ul {
