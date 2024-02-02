@@ -68,9 +68,11 @@ h1 {
 
 /* Subtitle styles */
 p {
-    font-size: 32px;
-    font-weight: bold; /* Make the text bold */
-    color: #324001; /* Remove single quotes and specify color */
+    font-size: 36px;
+    font-weight: bold;
+    color: #4B5940;
+    position: relative; /* Add this property */
+    top: -15px; /* Adjust this value to move the subtitle up or down */
 }
 
 /* Header */
