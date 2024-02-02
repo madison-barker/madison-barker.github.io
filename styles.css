@@ -1,4 +1,3 @@
-/* Body styles for full-page background */
 body {
     margin: 0;
     padding: 0;
@@ -50,30 +49,30 @@ nav a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff; /* Text color */
+    color: #001829; /* Text color, not white */
 }
 
 /* Name styles */
 h1 {
     font-size: 50px; /* Adjust font size as needed */
     font-weight: bold; /* Make the text bold */
+    color: #007acc; /* Blue color */
 }
 
 /* Subtitle styles */
 p {
-    font-size: 24px; 
-    color: 'black' 
+    font-size: 24px;
+    color: black; /* Remove single quotes and specify color */
 }
-
 
 /* Header */
 header {
     font-size: 14px;
-    color: #333;
+    color: #001829;
 }
 
 /* Main heading */
-h1 {
+h1.main-heading {
     font-size: 24px;
     color: #007acc; /* Blue color */
 }
@@ -111,10 +110,6 @@ a {
     color: #007acc;
     text-decoration: none;
 }
-
-
-
-
 
 
 
