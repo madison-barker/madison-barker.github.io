@@ -4,6 +4,26 @@
 <head>
     <title>Madison Barker</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        // Function to smoothly scroll to a target element
+        function scrollToElement(target) {
+            window.scrollTo({
+                top: target.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+
+        // Add click event listeners to navigation links
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault(); // Prevent default link behavior
+                const targetId = link.getAttribute('href').substring(1); // Remove '#'
+                const targetElement = document.getElementById(targetId);
+                scrollToElement(targetElement);
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="background-image">
