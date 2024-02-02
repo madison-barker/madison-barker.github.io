@@ -14,6 +14,17 @@ body {
     position: relative;
 }
 
+/* Style for subsections */
+.subsection {
+    display: none; /* Initially hide subsections */
+    padding-left: 20px; /* Add indentation for a nested look */
+}
+
+/* Style for subsection headings (h3) */
+.subsection h3 {
+    cursor: pointer; /* Add a pointer cursor for interaction */
+}
+
 /* Centered content styles */
 .centered-content {
     text-align: center;
