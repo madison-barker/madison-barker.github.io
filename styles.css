@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Hide overflow to prevent scrollbars */
 }
 
 /* Background image styles */
@@ -16,6 +15,8 @@ body {
 nav ul {
     list-style-type: none;
     padding: 0;
+    background-color: #D9D0C7; /* Add your desired background color */
+    width: 100%; /* Make the navigation bar span the entire width */
 }
 
 nav li {
