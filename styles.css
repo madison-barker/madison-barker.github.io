@@ -56,31 +56,31 @@ nav a:hover {
 h1 {
     font-size: 50px; /* Adjust font size as needed */
     font-weight: bold; /* Make the text bold */
-    color: #007acc; /* Blue color */
+    color: #4B5940; /* Blue color */
 }
 
 /* Subtitle styles */
 p {
     font-size: 24px;
     font-weight: bold; /* Make the text bold */
-    color: black; /* Remove single quotes and specify color */
+    color: #A28AA6; /* Remove single quotes and specify color */
 }
 
 /* Header */
 header {
     font-size: 14px;
-    color: #001829;
+    color: #4B5940;
 }
 
 /* Main heading */
 h1.main-heading {
     font-size: 24px;
-    color: #007acc; /* Blue color */
+    color: #4B5940; /* Blue color */
 }
 
 /* Navigation links */
 nav a {
-    color: #007acc; /* Blue color */
+    color: #A28AA6; /* Blue color */
     text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ video {
 
 /* Link styles */
 a {
-    color: #007acc;
+    color: #A28AA6;
     text-decoration: none;
 }
 
