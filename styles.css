@@ -41,7 +41,7 @@ h2 {
 p {
     font-size: 16px;
     line-height: 1.5;
-    color: #555;
+    color: #333;
 }
 
 /* Images and figures */
@@ -80,7 +80,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #333; /* Font color of the links */
+    color: #4B5940; /* Font color of the links */
     font-size: 16px;
     display: block; /* Make the links block-level elements */
     padding: 10px 15px; /* Add padding for better spacing */
