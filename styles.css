@@ -22,13 +22,20 @@ nav li {
     margin-bottom: 5px;
 }
 
-nav a {
+nav {
+    background-color: #D9D0C7; /* Change to your desired color code */
+    height: 80px; /* Adjust the height as needed */
+}
+
+nav a {      
     text-decoration: none;
-    color: #007acc; /* Adjust link color */
+    color: #2D402A; /* Adjust link color */
+    transition: color 0.3s;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: #BFAD50;
 }
 
 /* Style for subsections */
