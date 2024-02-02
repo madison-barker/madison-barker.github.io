@@ -15,28 +15,30 @@ body {
 nav ul {
     list-style-type: none;
     padding: 0;
-    background-color: #D9D0C7; /* Add your desired background color */
+    background-color: #007acc; /* Add your desired background color */
     width: 100%; /* Make the navigation bar span the entire width */
 }
 
+nav ul ul {
+    display: none; /* Hide submenus by default */
+}
+
+nav ul li:hover > ul {
+    display: block; /* Display submenu on hover */
+}
+
 nav li {
-    margin-bottom: 5px;
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Add spacing between items as needed */
 }
 
-nav {
-    background-color: #D9D0C7; /* Change to your desired color code */
-    height: 80px; /* Adjust the height as needed */
-}
-
-nav a {      
+nav a {
+    color: #fff; /* Text color for links */
     text-decoration: none;
-    color: #2D402A; /* Adjust link color */
-    transition: color 0.3s;
 }
 
 nav a:hover {
     text-decoration: underline;
-    color: #BFAD50;
 }
 
 /* Style for subsections */
