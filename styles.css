@@ -56,14 +56,14 @@ nav a:hover {
 h1 {
     font-size: 50px; /* Adjust font size as needed */
     font-weight: bold; /* Make the text bold */
-    color: #4B5940; /* Blue color */
+    color: #4B5940; /* green color */
 }
 
 /* Subtitle styles */
 p {
     font-size: 24px;
     font-weight: bold; /* Make the text bold */
-    color: #A28AA6; /* Remove single quotes and specify color */
+    color: #324001; /* Remove single quotes and specify color */
 }
 
 /* Header */
