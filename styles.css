@@ -8,8 +8,8 @@ body {
 
 /* Header styling */
 header {
-    background-color: #4B5940; /* Background color for the header */
-    color: #fff;
+    background-color: white; /* Background color for the header */
+    color: #4B5940;
     padding: 20px;
     text-align: center;
 }
@@ -17,7 +17,7 @@ header {
 h1 {
     font-size: 36px;
     font-weight: bold;
-    color: #fff; /* Text color for header */
+    color: #4B5940; /* Text color for header */
 }
 
 /* Main content container */
@@ -35,7 +35,7 @@ section {
 
 h2 {
     font-size: 24px;
-    color: #333;
+    color: #4B5940;
 }
 
 p {
