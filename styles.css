@@ -12,6 +12,26 @@ body {
     position: relative;
 }
 
+.navbar {
+    background-color: #D9D0C7; /* Background color of the navbar */
+    height: 1000px; /* Adjust the height as needed */
+}
+
+/* Style the navbar links */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* Font color of the links */
+    padding: 15px; /* Adjust padding as needed to control the size of the links */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -35,11 +55,6 @@ nav ul li a {
 nav li {
     display: inline-block; /* Display list items inline */
     margin-right: 20px; /* Add spacing between items as needed */
-}
-
-nav a {
-    color: #fff; /* Text color for links */
-    text-decoration: none;
 }
 
 nav a:hover {
