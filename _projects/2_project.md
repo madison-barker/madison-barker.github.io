@@ -1,81 +1,42 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Scene Descriptions
+description: How do speakers describe real-world scenes?
+img: assets/img/2.jpg
 importance: 2
+related_publications: false
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Language is used to describe the world in which we live. Unlike language, our world exists in a non-linear way. The  inability to say more than one thing at a time requires speakers to determine a linear order for the information that they want to convey. Deeciding what to say first, second, and so on, is known as the ***linearization problem*** [(Levelt, 1989)](https://books.google.com/books?hl=en&lr=&id=LbVCdCE-NQAC&oi=fnd&pg=PR13&dq=speaking+pim+levelt&ots=J0cFSfbbzN&sig=zx1tdFO7vUehoCd2e8_oA5VzYKg#v=onepage&q=speaking%20pim%20levelt&f=false). 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+When describing a simple scene, such as a simple cartoon, deciding what to say and when is relatively straightforward. Oftentimes, when these types of questions are investigated experimentally, speakers will describe images of transitive events that have been depicted using line drawings. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+These types of paradigms have informed our understanding of the production system, but much less is known about how speakers generate a ***linearization plan*** for multi-utterance language (i.e., language that is beyond a single sentence). 
+
+In this work, we had participants describe images of real-world scenes (as you see below). You can give it a try: Describe the scene below.  
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+</div> 
+
+
+[We found that speakers tended to describe the scenes in a systematic way](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10572038/). Namely, speakers tended to begin with objects that were more likely to be interacted with. Intuitively, this makes sense. Think about your description. Did you start with the ceiling? Or did you mention the kitchen bar? Or maybe the couch?
+
+Below is a visualization of where one of our subjects looked while describing the scene. You can see from their fixations that they tended to look more at objects, ones they could interact with, more than other areas (see [Rehrig et al., 2022](https://link.springer.com/article/10.3758/s13414-022-02467-6) if you want to know more about the relevant attentional analyses)!
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    This shows where people looked in the scene while they described what they were looking at. The green dot represents fixations and the gif plots the fixation locations as they occurred.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+ 

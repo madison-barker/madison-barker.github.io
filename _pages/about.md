@@ -1,25 +1,26 @@
 ---
 layout: about
 title: about
-permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+permalink: /about/
+subtitle: PhD | Data Scientist | Psycholinguist
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p></p>
+    <p></p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there, my name is Madison. It's great to meet you!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a recent graduate in the Department of Psychology at the University of California, Davis where I received my PhD. I research centered on language production, namely multi-utterance production, and I completed my training under the advisement of [Dr. Fernanda Ferreira](https://psychology.ucdavis.edu/people/fernanda-ferreira). Check out the [About](/al-folio/pages/about_full) tab to read more about my educational background! 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My dissertation investigated multi-utterance language production in adults and children. I approached these questions using a number of behavioral and computational methods. Check out the [About](/al-folio/pages/about_full) tab to read more about my educational background, and my [projects](/al-folio/pages/projects] tab to read more about the specific projects I have worked on. 
+
+Lastly, I love integrating my hobbies with my work, which you can also check out on my [projects](/al-folio/pages/projects) page.

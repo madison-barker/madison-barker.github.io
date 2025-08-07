@@ -1,3 +1,20 @@
+<title>
+  {% if page.permalink == "/projects/" %}
+    madison s. barker | projects
+  {% elsif page.permalink == "/cv/" %}
+    madison s. barker | cv  
+  {% elsif page.page_title and site.title %}
+    {{ site.title }} | {{ page.page_title }}
+  {% elsif page.title and site.title %}
+    {{ site.title }} | {{ page.title }}
+  {% elsif site.title %}
+    {{ site.title }}
+  {% else %}
+    {{ page.title }}
+  {% endif %}
+</title>
+
+
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 

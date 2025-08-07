@@ -1,12 +1,18 @@
 ---
 layout: page
-title: projects
+title: 
+page_title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:  Below are some of my recent projects that I have worked on, including student projects & ones I have done in my free time. 
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
+
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+---
 ---
 
 <!-- pages/projects.md -->
@@ -14,9 +20,8 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
+  <h2 id="{{ category }}" class="category">{{ category }}</h2>
+
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

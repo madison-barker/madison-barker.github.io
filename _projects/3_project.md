@@ -1,81 +1,63 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Event Descriptions
+description: Describing photographs of events
+img: assets/img/mongolia.jpg
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Much of what is known about language production stems from research using highly controlled, often artificial tasks such as picture naming or single sentence descriptions. While these paradigms offer strong experimental control (i.e., we can easily manipulate the variables of interest), they lack the ecological validity of natural discourse and real-world visual complexity. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Consequently, our understanding of how speakers plan and produce multi-utterance, extemporaneous language in response to naturalistic stimuli, especially static images that imply dynamic content, remains limited. This project introduces a methodological approach that leverages visually rich, naturalistic images to elicit more ecologically valid language data.
+
+Unlike objects, events are not directly observable in static scenes; they must be inferred through the relations among entities. Moreover, the way speakers choose to describe a visual environment is often dictated by properties of the environment itself (e.g., entities or events). To investigate how people produce discourse in complex environments, we developed a methodological framework that leverages photorealistic, semantically rich static scenes depicting one or more implied motion events. 
+
+This project provides a scalable and generalizable approach for identifying, localizing, and quantifying events in still images offering a foundation for examining how speakers apprehend, prioritize, and describe dynamic content from visual input.
+
+**Project Tools:** Open-Ended Verbal Data Collection - Survey (**Qualtrics**), Spatial Data Collection (**Qualtrics**), Verbal Data Collection (**Spoken**), Eyetracking (**Eyelink 1000+**); WhisperAI, MATLAB, Python, R, mixed-effects modeling, NLP, unsupervised learning, Adobe, MS Excel. 
+
+
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    ---
+    --- -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mongolia.jpg" title="example event scene - outdoor" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/reading_writing.jpg" title="example event scene - indoor" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Here are two examples of event scenes that participants described while their eye movements were recorded. Participants described 30 scenes for 30 seconds. Each subject described 15 scenes that depicted indoor environments and 15 scenes that depicted outdoor environments. 
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/reading_writing.png" title="example event scene - outdoor" class="img-fluid rounded z-depth-1" %}
+            <figcaption> (a) Event Map</figcaption>
+        </figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/reading_writing_meaning.png" title="example event scene - indoor" class="img-fluid rounded z-depth-1" %}
+            <figcaption> (b) Meaning Map</figcaption>
+        </figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/reading_writing_interact.png" title="example event scene - indoor" class="img-fluid rounded z-depth-1" %}
+            <figcaption> (c) Interactability Map</figcaption>
+        </figure>
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Here is an example of an event map (a), and semantic feature maps: the spatial distribution of meaning (b), and the spatial distribution of interactability (c) (i.e., how interactable areas of a scene are perceived to be).
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
