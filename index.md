@@ -1,7 +1,4 @@
 ---
-layout: home
-title: "Madison Barker"
-subtitle: "PhD, Data Scientist, Mixed Methods Researcher"
+layout: redirect
+redirect: /about/
 ---
-
-Hello, world!
